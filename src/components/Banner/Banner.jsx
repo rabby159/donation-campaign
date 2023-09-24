@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="hero-overlay bg-white bg-opacity-80"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-2xl">
-            <p className="text-black text-4xl font-bold mb-5">I Grow By Helping People In Need</p>
+            <p className="text-black text-4xl font-bold pt-10 mb-5">I Grow By Helping People In Need</p>
             <div className="">
               <div className="">
                 <input
