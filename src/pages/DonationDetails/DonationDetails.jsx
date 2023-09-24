@@ -19,7 +19,7 @@ const DonationDetails = () => {
 
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-1 ">
+      <div className="mx-1">
         <DonationDetail donation={donation}></DonationDetail>
       </div>
     </div>
