@@ -44,51 +44,18 @@
       "price": 260
     },
     {
-      "id": 5,
-      "image": "https://i.ibb.co/dMbKjm9/Health.png",
-      "title": "Clean water for children",
-      "category_name": "Health",
-      "category_bg": "#0052ff33",
-      "card_bg": "#0052ff26",
-      "text_bg": "#0052FF",
-      "description": "Your generous donation to our health initiative makes a significant impact on the well-being of individuals in need. With your support, we provide vital medical services, medications, and healthcare resources to those facing health challenges. Together, we are ensuring access to quality healthcare, improving lives, and building healthier communities.",
-      "price": 250
+        "id": 5,
+        "image": "https://i.ibb.co/vPjFfwZ/Education.png",
+        "title": "Good education",
+        "category_name": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_bg": "#FF444A",
+        "description": "Education is a fundamental right that can transform lives. Your contribution to our education program empowers underprivileged children and adults with the gift of knowledge. Your donation provides books, school supplies, scholarships, and educational opportunities to those who might not otherwise have access. Together, we're shaping a brighter future through education.",
+        "price": 290
     },
     {
       "id": 6,
-      "image": "https://i.ibb.co/vPjFfwZ/Education.png",
-      "title": "Good education",
-      "category_name": "Education",
-      "category_bg": "#ff444a33",
-      "card_bg": "#ff444a26",
-      "text_bg": "#FF444A",
-      "description": "Education is a fundamental right that can transform lives. Your contribution to our education program empowers underprivileged children and adults with the gift of knowledge. Your donation provides books, school supplies, scholarships, and educational opportunities to those who might not otherwise have access. Together, we're shaping a brighter future through education.",
-      "price": 290
-    },
-    {
-      "id": 7,
-      "image": "https://i.ibb.co/Z8Q7vng/Clothing.png",
-      "title": "Used Clothing Drive",
-      "category_name": "Clothing",
-      "category_bg": "#79c23f33",
-      "card_bg": "#79c23f26",
-      "text_bg": "#79C23F",
-      "description": "Your clothing donation makes a difference in the lives of individuals and families struggling to meet their basic needs. Your generosity provides warm clothing, shoes, and essential garments to those facing harsh weather conditions or economic hardship. With your support, we're not only keeping people warm but also restoring their dignity and confidence.",
-      "price": 270
-    },
-    {
-      "id": 8,
-      "image": "https://i.ibb.co/kJWh52V/Food.png",
-      "title": "Better Food for Everyone",
-      "category_name": "Food",
-      "category_bg": "#f8714733",
-      "card_bg": "#f8714726",
-      "text_bg": "#F87147",
-      "description": "Hunger is a pressing issue affecting millions around the world. Your contribution to our food drive helps combat this crisis. Your donation goes towards providing nutritious meals, food packages, and support to those experiencing food insecurity. Together, we're working to alleviate hunger and ensure that no one goes to bed hungry.",
-      "price": 260
-    },
-    {
-      "id": 9,
       "image": "https://i.ibb.co/dMbKjm9/Health.png",
       "title": "Clean water for children",
       "category_name": "Health",
@@ -97,31 +64,9 @@
       "text_bg": "#0052FF",
       "description": "Your generous donation to our health initiative makes a significant impact on the well-being of individuals in need. With your support, we provide vital medical services, medications, and healthcare resources to those facing health challenges. Together, we are ensuring access to quality healthcare, improving lives, and building healthier communities.",
       "price": 250
-    },
+    },  
     {
-      "id": 10,
-      "image": "https://i.ibb.co/vPjFfwZ/Education.png",
-      "title": "Good education",
-      "category_name": "Education",
-      "category_bg": "#ff444a33",
-      "card_bg": "#ff444a26",
-      "text_bg": "#FF444A",
-      "description": "Education is a fundamental right that can transform lives. Your contribution to our education program empowers underprivileged children and adults with the gift of knowledge. Your donation provides books, school supplies, scholarships, and educational opportunities to those who might not otherwise have access. Together, we're shaping a brighter future through education.",
-      "price": 290
-    },
-    {
-      "id": 11,
-      "image": "https://i.ibb.co/Z8Q7vng/Clothing.png",
-      "title": "Used Clothing Drive",
-      "category_name": "Clothing",
-      "category_bg": "#79c23f33",
-      "card_bg": "#79c23f26",
-      "text_bg": "#79C23F",
-      "description": "Your clothing donation makes a difference in the lives of individuals and families struggling to meet their basic needs. Your generosity provides warm clothing, shoes, and essential garments to those facing harsh weather conditions or economic hardship. With your support, we're not only keeping people warm but also restoring their dignity and confidence.",
-      "price": 270
-    },
-    {
-      "id": 12,
+      "id": 7,
       "image": "https://i.ibb.co/kJWh52V/Food.png",
       "title": "Better Food for Everyone",
       "category_name": "Food",
@@ -130,6 +75,62 @@
       "text_bg": "#F87147",
       "description": "Hunger is a pressing issue affecting millions around the world. Your contribution to our food drive helps combat this crisis. Your donation goes towards providing nutritious meals, food packages, and support to those experiencing food insecurity. Together, we're working to alleviate hunger and ensure that no one goes to bed hungry.",
       "price": 260
-    }
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/Z8Q7vng/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category_name": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_bg": "#79C23F",
+        "description": "Your clothing donation makes a difference in the lives of individuals and families struggling to meet their basic needs. Your generosity provides warm clothing, shoes, and essential garments to those facing harsh weather conditions or economic hardship. With your support, we're not only keeping people warm but also restoring their dignity and confidence.",
+        "price": 270
+    },
+    
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/kJWh52V/Food.png",
+      "title": "Better Food for Everyone",
+      "category_name": "Food",
+      "category_bg": "#f8714733",
+      "card_bg": "#f8714726",
+      "text_bg": "#F87147",
+      "description": "Hunger is a pressing issue affecting millions around the world. Your contribution to our food drive helps combat this crisis. Your donation goes towards providing nutritious meals, food packages, and support to those experiencing food insecurity. Together, we're working to alleviate hunger and ensure that no one goes to bed hungry.",
+      "price": 260
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/Z8Q7vng/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category_name": "Clothing",
+        "category_bg": "#79c23f33",
+        "card_bg": "#79c23f26",
+        "text_bg": "#79C23F",
+        "description": "Your clothing donation makes a difference in the lives of individuals and families struggling to meet their basic needs. Your generosity provides warm clothing, shoes, and essential garments to those facing harsh weather conditions or economic hardship. With your support, we're not only keeping people warm but also restoring their dignity and confidence.",
+        "price": 270
+      },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/vPjFfwZ/Education.png",
+        "title": "Good education",
+        "category_name": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_bg": "#FF444A",
+        "description": "Education is a fundamental right that can transform lives. Your contribution to our education program empowers underprivileged children and adults with the gift of knowledge. Your donation provides books, school supplies, scholarships, and educational opportunities to those who might not otherwise have access. Together, we're shaping a brighter future through education.",
+        "price": 290
+      },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/dMbKjm9/Health.png",
+        "title": "Clean water for children",
+        "category_name": "Health",
+        "category_bg": "#0052ff33",
+        "card_bg": "#0052ff26",
+        "text_bg": "#0052FF",
+        "description": "Your generous donation to our health initiative makes a significant impact on the well-being of individuals in need. With your support, we provide vital medical services, medications, and healthcare resources to those facing health challenges. Together, we are ensuring access to quality healthcare, improving lives, and building healthier communities.",
+        "price": 250
+      }
   ]
   
