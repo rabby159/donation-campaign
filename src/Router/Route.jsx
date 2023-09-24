@@ -3,6 +3,8 @@ import MainLayout from "../Layouts/MainLayout";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
 import Donation from "../pages/Donation/Donation";
+import Statistics from "../pages/Statistics/Statistics";
+import DonationDetails from "../pages/DonationDetails/DonationDetails";
 
 
 
@@ -20,7 +22,17 @@ const siteRoute = createBrowserRouter([
             {
                 path : '/donation',
                 element : <Donation></Donation>
+            },
+            {
+                path : '/statistics',
+                element : <Statistics></Statistics>
+            },
+            {
+                path : '/donationCards/:id',
+                element : <DonationDetails></DonationDetails>,
+                loader : () => fetch(`/data.json`)
             }
+
         ]
     }
 ]);
