@@ -20,7 +20,7 @@ const DonationDetail = ({ donation }) => {
         if(!donationCategory){
             addDonation.push(donation);
             localStorage.setItem('donation', JSON.stringify(addDonation));
-            swal("Good job!", "Product Added Successfully!", "success");
+            swal("Good job!", "Donation Successful!", "success");
         }
         else{
 
@@ -30,7 +30,7 @@ const DonationDetail = ({ donation }) => {
             
             addDonation.push(...donationCategory, donation);
             localStorage.setItem('donation', JSON.stringify(addDonation));
-            swal("Good job!", "Product Added Successfully!", "success");
+            swal("Good job!", "Donation Successful!", "success");
 
           }
           else{
