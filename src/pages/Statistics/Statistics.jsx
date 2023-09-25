@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import { PieChart, Pie, Cell, Legend } from "recharts";
 
@@ -16,11 +17,11 @@ const Statistics = () => {
   const remainingDonations = totalDonations - selectedDonations;
 
   const data = [
+      { name: "Total Donation", value: remainingDonations },
     { name: "Your Donation", value: selectedDonations },
-    { name: "Total Donation", value: remainingDonations },
   ];
 
-  const COLORS = ["#00C49F", "#FF444A"];
+  const COLORS = ["#FF444A", "#00C49F"];  
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
@@ -54,8 +55,8 @@ const Statistics = () => {
       <PieChart width={400} height={400}>
         <Pie
           data={data}
-          cx="50%"
           cy="50%"
+          cx="50%"
           labelLine={false}
           label={renderCustomizedLabel}
           outerRadius={180}
