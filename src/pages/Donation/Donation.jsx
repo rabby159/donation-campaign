@@ -3,6 +3,7 @@ import Donations from "./Donations";
 
 const Donation = () => {
   const [donationData, setDonationData] = useState([]);
+  console.log(donationData)
   const [noDataFound, setNoDataFound] = useState(false);
   const [donationCount, setDonationCount] = useState(4);
 
@@ -29,7 +30,7 @@ const Donation = () => {
             ))}
           </div>
           <div className="flex justify-center pt-10">
-            <div className={donationCount === donationData.length && "hidden"}>
+            <div className={donationCount == donationData.length && "hidden"}>
               <button
                 onClick={() => setDonationCount(donationData.length)}
                 className="btn"
