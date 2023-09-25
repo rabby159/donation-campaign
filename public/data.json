@@ -46,7 +46,7 @@
     {
         "id": 5,
         "image": "https://i.ibb.co/vPjFfwZ/Education.png",
-        "title": "Good education",
+        "title": "Future through Education ",
         "category_name": "Education",
         "category_bg": "#ff444a33",
         "card_bg": "#ff444a26",
@@ -57,7 +57,7 @@
     {
       "id": 6,
       "image": "https://i.ibb.co/dMbKjm9/Health.png",
-      "title": "Clean water for children",
+      "title": "The Impact of Health",
       "category_name": "Health",
       "category_bg": "#0052ff33",
       "card_bg": "#0052ff26",
@@ -68,7 +68,7 @@
     {
       "id": 7,
       "image": "https://i.ibb.co/kJWh52V/Food.png",
-      "title": "Better Food for Everyone",
+      "title": "The Lifeline of Food",
       "category_name": "Food",
       "category_bg": "#f8714733",
       "card_bg": "#f8714726",
@@ -79,7 +79,7 @@
     {
         "id": 8,
         "image": "https://i.ibb.co/Z8Q7vng/Clothing.png",
-        "title": "Used Clothing Drive",
+        "title": "Dressing a Better Tomorrow",
         "category_name": "Clothing",
         "category_bg": "#79c23f33",
         "card_bg": "#79c23f26",
@@ -91,7 +91,7 @@
     {
       "id": 9,
       "image": "https://i.ibb.co/kJWh52V/Food.png",
-      "title": "Better Food for Everyone",
+      "title": "Importance Food Donations",
       "category_name": "Food",
       "category_bg": "#f8714733",
       "card_bg": "#f8714726",
@@ -102,7 +102,7 @@
     {
         "id": 10,
         "image": "https://i.ibb.co/Z8Q7vng/Clothing.png",
-        "title": "Used Clothing Drive",
+        "title": "Warming Hearts and Bodies",
         "category_name": "Clothing",
         "category_bg": "#79c23f33",
         "card_bg": "#79c23f26",
@@ -113,7 +113,7 @@
     {
         "id": 11,
         "image": "https://i.ibb.co/vPjFfwZ/Education.png",
-        "title": "Good education",
+        "title": "The Impact of Education",
         "category_name": "Education",
         "category_bg": "#ff444a33",
         "card_bg": "#ff444a26",
@@ -124,7 +124,7 @@
     {
         "id": 12,
         "image": "https://i.ibb.co/dMbKjm9/Health.png",
-        "title": "Clean water for children",
+        "title": "A Path to Hope and Healing",
         "category_name": "Health",
         "category_bg": "#0052ff33",
         "card_bg": "#0052ff26",

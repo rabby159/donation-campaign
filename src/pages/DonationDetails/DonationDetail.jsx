@@ -1,14 +1,45 @@
 /* eslint-disable react/prop-types */
 
+import swal from "sweetalert";
+
 const DonationDetail = ({ donation }) => {
   // console.log(donation);
 
-  const { image, title,  text_bg, price, description } =
+  const { id, image, title,  text_bg, price, description } =
     donation || {};
 
     const textColorBg ={
            backgroundColor : text_bg || '#FFFFFF'
     };
+
+    const handleDonate = () =>{
+        const addDonation = [];
+
+        const donationCategory = JSON.parse(localStorage.getItem('donation'));
+
+        if(!donationCategory){
+            addDonation.push(donation);
+            localStorage.setItem('donation', JSON.stringify(addDonation));
+            swal("Good job!", "Product Added Successfully!", "success");
+        }
+        else{
+
+          const isExits = donationCategory?.find(donation => donation.id === id);
+
+          if(!isExits){
+            
+            addDonation.push(...donationCategory, donation);
+            localStorage.setItem('donation', JSON.stringify(addDonation));
+            swal("Good job!", "Product Added Successfully!", "success");
+
+          }
+          else{
+            swal("Error!", "Already Donation done in this package", "error");
+          }
+
+
+        }
+    }
 
   return (
     <div className="py-32">
@@ -19,7 +50,7 @@ const DonationDetail = ({ donation }) => {
 
             </div>
           <div className=" -mt-20 pl-5 ">
-            <button className="btn text-white" style={textColorBg}>Donate ${price}</button>
+            <button onClick={handleDonate} className="btn text-white" style={textColorBg}>Donate ${price}</button>
           </div>
         </div>
         <div className="py-20">
