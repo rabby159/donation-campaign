@@ -30,7 +30,7 @@ const Donation = () => {
             ))}
           </div>
           <div className="flex justify-center pt-10">
-            <div className={donationCount == donationData.length && "hidden"}>
+            <div className={donationCount === donationData.length && "hidden"}>
               <button
                 onClick={() => setDonationCount(donationData.length)}
                 className="btn"
